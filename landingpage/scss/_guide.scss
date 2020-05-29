@@ -1,11 +1,12 @@
 //Colors
 $color-primary: rgba(57, 181, 74, 1);
-$color_secondary: rgba(74, 98, 181, 1);
-$color_white: rgb(255, 255, 255);
-$color_black: rgb(0, 0, 0);
-$color_support: rgba(51, 51, 51, 1);
-$color_gray_100: rgba(242, 242, 242, 1);
-$color_gray_300: rgba(188, 188, 188, 1);
+$color-secondary: rgba(74, 98, 181, 1);
+$color-white: rgb(255, 255, 255);
+$color-black: rgb(0, 0, 0);
+$color-support: rgba(51, 51, 51, 1);
+$color-gray_100: rgba(242, 242, 242, 1);
+$color_gray-200: rgba(249, 249, 249, 1);
+$color-gray_300: rgba(188, 188, 188, 1);
 
 
 // Mixin Shadow
@@ -46,4 +47,31 @@ $color_gray_300: rgba(188, 188, 188, 1);
 }
 @mixin fontSize ($size) {
     font-size: calculateRem($size);
+}
+
+// Components
+%btn-structure {
+    padding: .5rem 1rem;
+    border-radius: 4rem;
+    font-family: 'Open Sans', sans-serif;
+    @include fontSize(16px);
+    font-weight: 700;
+    color: $color_white;
+    text-transform: uppercase;
+    @include transition(all 0.3s ease-in-out 0s);
+    &:hover {
+        text-decoration: none;
+        color: $color_white;
+    }
+}
+
+%icon-before {
+    @include width(64px);
+    @include height(64px);
+    background-color: rgba($color-primary, 0.1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
 }

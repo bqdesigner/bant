@@ -1,6 +1,242 @@
 @import 'guide';
 
-body {
-    background-color: $color-white;
+::selection {
+    background: $color-primary;
+    color: $color-white;
+}
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
+body {
+    margin: 0;
+    background-color: $color-white;
+    background-image: url('../assets/img/bg_entrada.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 1rem ;
+    a {
+        @extend %btn-structure;
+        border: 1px solid $color-white;
+        @include height(40px);
+        margin-top: 1rem;
+        &:hover {
+            background-color: $color-white;
+            color: $color-primary;
+        }
+    }
+}
+.entrada {
+    width: 100%;
+    height: 900px;
+    margin-top: 4rem;
+    h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        color: $color-primary;
+        @include fontSize(48px);
+        text-transform: uppercase;
+        margin-top: 4rem;
+    }
+    h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        @include fontSize(32px);
+        color: $color-support;
+        margin-top: 1rem;
+    }
+}
+.chamada-1 h2, .chamada-2 h2, .chamada-3 h2, .chamada-4 h2, .comentarios h2, .faq h2, .sobre h2, .chamada-email h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: $color-support;
+    @include fontSize(40px);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.chamada-1 p, .chamada-2 p, .chamada-3 p, .chamada-4 p, .sobre p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: $color-gray_300;
+    @include fontSize(24px);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.chamada-1, .chamada-2, .chamada-3, .chamada-4, .beneficios, .comentarios, .faq {
+    margin-bottom: 10rem;
+}
+
+.chamada-1 {
+    .row {
+        margin-top: 3rem;
+    }
+    .steps {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        ul {
+            list-style: none;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            color: $color-support;
+            @include fontSize(24px);
+            li {
+                margin-bottom: 1rem;
+            }
+            li::before {
+                @extend %icon-before;
+            }
+            li:nth-child(1)::before {
+                content: url('../assets/svg/account-outline.svg');
+            }
+            li:nth-child(2)::before {
+                content: url('../assets/svg/search-outline.svg');
+                padding-top: .5rem;
+            }
+            li:nth-child(3)::before {
+                content: url('../assets/svg/buy-outline.svg');
+            }
+        }
+    }
+    .cta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        a {
+            @extend %btn-structure;
+            color: $color-primary;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            padding: 0rem 2rem;
+            @include fontSize(24px);
+            background-color: rgba($color-primary, 0.1);
+            &:hover {
+                background-color: rgba($color-primary, 0.2);
+                color: $color-primary;
+            }
+        }
+    }
+}
+// .chamada-2 {
+    
+// }
+.chamada-email {
+    @include height(300px);
+    h2 {
+        text-align: left;
+        @include fontSize(24px);
+    }
+}
+.chamada-3 {
+    h2, p {
+        text-align: left;
+    }
+}
+.chamada-4 {
+    margin-bottom: 7rem;
+    .row div {
+        width: 100%;
+        @include height(300px);
+        background-color: $color-primary;
+        border-radius: 1.5rem;
+    }
+    > .row {
+        margin-bottom: 3rem;
+    }
+}
+.beneficios {
+    .row div {
+        margin-bottom: 2rem;
+    }
+    h3 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        color: $color-support;
+        @include fontSize(24px);
+        margin-bottom: 1rem;
+    }
+    .beneficio-1::before, .beneficio-2::before, .beneficio-3::before, .beneficio-4::before {
+        margin-bottom: 1rem;
+        padding-top: .5rem;
+    }
+    .beneficio-1::before {
+        content: url('../assets/svg/map-outline.svg');
+        @extend %icon-before;
+    }
+    .beneficio-2::before {
+        content: url('../assets/svg/store-outline.svg');
+        @extend %icon-before;
+    }
+    .beneficio-3::before {
+        content: url('../assets/svg/offer-outline.svg');
+        @extend %icon-before;
+    }
+    .beneficio-4::before {
+        content: url('../assets/svg/collaborate-outline.svg');
+        @extend %icon-before;
+        padding-top: 0;
+    }
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: $color-gray_300;
+        @include fontSize(20px);
+    }
+}
+.comentarios {
+    h2 {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .comentario {
+        width: 100%;
+        background-color: $color-gray_200;
+        border-radius: .5rem;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: $color-gray_300;
+        @include fontSize(16px);
+        padding: 1rem;
+        .perfil {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            img {
+                margin-right: 1rem; 
+                border: 2px solid $color-primary;
+                border-radius: 100%;;
+            }
+            h3 {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 800;
+                color: $color-support;
+                @include fontSize(20px);
+            }
+        }
+    }
+}
+.faq {
+    @include height(500px);
+}
+.sobre {
+    h2, p {
+        text-align: left;
+    }
+    p {
+        @include fontSize(20px);
+    }
+}
+footer {
+    margin-top: 5rem;
+}
