@@ -1,0 +1,49 @@
+//Colors
+$color-primary: rgba(57, 181, 74, 1);
+$color_secondary: rgba(74, 98, 181, 1);
+$color_white: rgb(255, 255, 255);
+$color_black: rgb(0, 0, 0);
+$color_support: rgba(51, 51, 51, 1);
+$color_gray_100: rgba(242, 242, 242, 1);
+$color_gray_300: rgba(188, 188, 188, 1);
+
+
+// Mixin Shadow
+@mixin box-shadow($shadow...) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+
+%sombra-1 {
+    @include box-shadow(0px 21px 42px rgba(0,0,0, 0.05));
+}
+
+// Mixin  transições
+@mixin transition($transition-1) {
+    -webkit-transition: $transition-1;
+    transition: $transition-1;
+}
+@mixin transform {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+// Converter PX para REM
+@function calculateRem($size) {
+    $remSize: $size / 16px;
+    @return #{$remSize}rem;
+}
+@mixin width ($size) {
+    width: calculateRem($size);
+}
+@mixin height ($size) {
+    height: calculateRem($size);
+}
+@mixin fontSize ($size) {
+    font-size: calculateRem($size);
+}
