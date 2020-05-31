@@ -55,10 +55,6 @@ header {
     }
 }
 .form-cadastro {
-    display: flex;
-    justify-content: space-between;
-    align-content: stretch;
-    // flex-direction: row;
     margin-top: 4rem;
     font-family: 'Open Sans', sans-serif;
     @include width(542px);
@@ -304,8 +300,10 @@ header {
         font-weight: 800;
         color: $color-support;
         @include fontSize(24px);
+        @include transition(all 0.3s ease-in-out 0s);
         &:hover {
             text-decoration: none;
+            color: $color-primary;
         }
     }
     .panel-body {
@@ -324,7 +322,7 @@ header {
         transition: all 0.5s;
     }
     #accordion .panel-heading.active a:before {
-        transform: rotate(45deg);
+        content: url('../assets/svg/less-outline.svg');
         transition: all 0.5s;
     }
 }
