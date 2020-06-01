@@ -1,0 +1,156 @@
+@media (max-width: 1199px) {
+    .entrada .form-cadastro {
+        @include width(370px);
+        input[type="text"] {
+            @include width(240px);
+            @include fontSize(12px);
+        }
+        input[type="submit"] {
+            @include fontSize(12px);
+            padding: 0 1rem 0 1rem;
+        }
+    }
+}
+@media (max-width: 1157px) {
+    body {
+        background-position: top right -25%;
+    }
+    .entrada {
+        height: 700px;
+        h1 {
+            @include fontSize(32px);
+        }
+        h2 {
+            @include fontSize(24px);
+        }
+    }
+    .chamada-1 h2, .chamada-2 h2, .chamada-3 h2, .chamada-4 h2, .comentarios h2, .faq h2, .sobre h2, .chamada-email h2 {
+        @include fontSize(32px);
+    }
+    .chamada-1 p, .chamada-2 p, .chamada-3 p, .chamada-4 p, .sobre p, .chamada-email p {
+        @include fontSize(20px);
+    }
+}
+@media (max-width: 991px) {
+    body {
+        background-position: top -3% right -55%;
+    }
+    .entrada {
+        height: 500px;
+        h1 {
+            @include fontSize(24px);
+        }
+        h2 {
+            @include fontSize(20px);
+        }
+    }
+    .entrada .form-cadastro {
+        @include width(360px);
+        input[type="text"] {
+            @include width(230px);
+            @include fontSize(12px);
+        }
+    }
+    .chamada-1 h2, .chamada-2 h2, .chamada-3 h2, .chamada-4 h2, .comentarios h2, .faq h2, .sobre h2, .chamada-email h2 {
+        @include fontSize(24px);
+    }
+    .chamada-1 p, .chamada-2 p, .chamada-3 p, .chamada-4 p, .sobre p, .chamada-email p, .beneficios p {
+        @include fontSize(16px);
+    }
+    .chamada-1 {
+        .steps {
+            ul {
+                @include fontSize(16px);
+            }
+        }
+    }
+    .chamada-1, .chamada-2, .chamada-email, .chamada-3, .chamada-4, .beneficios, .comentarios, .faq {
+        margin-bottom: 7rem;
+    }
+    .chamada-4 .servicos {
+        @include height(250px);
+        h3 {
+            @include fontSize(16px);
+            padding: 0 0 .5rem .5rem; 
+        }
+    }
+    .beneficios {
+        h3 {
+            @include fontSize(24px);
+        }
+    }
+}
+@media (max-width: 845px) {
+    body {
+        background-position: top -3% right -120%;
+    }
+}
+@media (max-width: 767px) {
+    body {
+        background: none;
+    }
+    header {
+        a {
+            border: 1px solid $color-primary;
+            color: $color-primary;
+            @include height(40px);
+            margin-top: 1rem;
+            &:hover {
+                background-color: $color-primary;
+                color: $color-white;
+            }
+        }
+    }
+    .entrada {
+        margin-top: 2rem;
+        height: 700px;
+        .img-entrada {
+            @include width(250px);
+            @include height(250px);
+            margin-top: 3rem;
+            -webkit-box-shadow: 50px 50px 0px 0px $color-primary;
+            -moz-box-shadow: 50px 50px 0px 0px $color-primary;
+            box-shadow: 50px 50px 0px 0px $color-primary;
+        }
+    }
+    .chamada-1 {
+        .steps {
+            margin-top: 2rem;
+        }
+    }
+    .chamada-email .form-cadastro {
+        @include width(350px);
+        input[type="text"] {
+            @include width(210px);
+            @include fontSize(12px);
+        }
+        input[type="submit"] {
+            @include fontSize(12px);
+            padding: 0 1rem 0 1rem;
+        }
+    }
+    .chamada-1, .chamada-2, .chamada-email, .chamada-3, .chamada-4, .beneficios, .comentarios, .faq {
+        margin-bottom: 4rem;
+    }
+    .chamada-3 h2, .chamada-3 p {
+        text-align: center;
+    }
+    .chamada-4 .servicos {
+        @include height(250px);
+        h3 {
+            @include fontSize(16px);
+            padding: 0 0 .5rem .5rem; 
+        }
+    }
+    .faq {
+        .panel-title a {
+            @include fontSize(20px);
+        }
+    }
+    .sobre {
+        padding: 1rem;
+        .info-sobre {
+            margin-top: 2rem;
+        }
+    }
+}

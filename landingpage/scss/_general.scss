@@ -12,6 +12,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     background-color: $color-white;
     background-image: url('../assets/img/bg_entrada.png');
     background-repeat: no-repeat;
@@ -130,14 +131,22 @@ header {
                 @extend %icon-before;
             }
             li:nth-child(1)::before {
-                content: url('../assets/svg/account-outline.svg');
+                content: '';
+                background-image: url(../assets/svg/account-outline.svg);
+                background-repeat: no-repeat;
+                background-position: center center;
             }
             li:nth-child(2)::before {
-                content: url('../assets/svg/search-outline.svg');
-                padding-top: .5rem;
+                content: '';
+                background-image: url(../assets/svg/search-outline.svg);
+                background-repeat: no-repeat;
+                background-position: center center;
             }
             li:nth-child(3)::before {
-                content: url('../assets/svg/buy-outline.svg');
+                content: '';
+                background-image: url(../assets/svg/buy-outline.svg);
+                background-repeat: no-repeat;
+                background-position: center center;
             }
         }
     }
@@ -175,24 +184,22 @@ header {
 }
 .chamada-4 {
     margin-bottom: 7rem;
-    .row div {
-        width: 100%;
-        @include height(300px);
+    .servicos {
+        @include width(330px);
+        @include height(330px);
         background-color: $color-primary;
         border-radius: 1.5rem;
         display: flex;
         justify-content: flex-end;
         align-content: flex-end;
         flex-direction: column;
+        margin-bottom: 3rem;
         h3 {
             font-weight: 700;
             color: $color-white;
             @include fontSize(24px);
             padding: 0 0 1rem 1rem; 
         }
-    }
-    > .row {
-        margin-bottom: 3rem;
     }
 }
 .beneficios {
@@ -211,21 +218,36 @@ header {
         padding-top: .5rem;
     }
     .beneficio-1::before {
-        content: url('../assets/svg/map-outline.svg');
         @extend %icon-before;
+        content: '';
+        background-image: url(../assets/svg/map-outline.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 70%;
     }
     .beneficio-2::before {
-        content: url('../assets/svg/store-outline.svg');
         @extend %icon-before;
+        content: '';
+        background-image: url(../assets/svg/store-outline.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 70%;
     }
     .beneficio-3::before {
-        content: url('../assets/svg/offer-outline.svg');
         @extend %icon-before;
+        content: '';
+        background-image: url(../assets/svg/offer-outline.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 70%;
     }
     .beneficio-4::before {
-        content: url('../assets/svg/collaborate-outline.svg');
         @extend %icon-before;
-        padding-top: 0;
+        content: '';
+        background-image: url(../assets/svg/collaborate-outline.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 70%;
     }
     p {
         font-family: 'Open Sans', sans-serif;
@@ -248,6 +270,7 @@ header {
         color: $color-gray_300;
         @include fontSize(16px);
         padding: 1rem;
+        margin-bottom: 1rem;
         .perfil {
             margin-top: 1rem;
             display: flex;
@@ -312,6 +335,10 @@ header {
         color: $color-gray_300;
         @include fontSize(16px);
         margin-bottom: 2rem;
+        a {
+            color: $color-primary;
+            font-weight: 700;
+        }
     }
     #accordion .panel-heading a:before {
         content: url('../assets/svg/plus-outline.svg');

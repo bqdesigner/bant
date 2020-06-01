@@ -74,4 +74,8 @@ $color-gray_300: rgba(188, 188, 188, 1);
     justify-content: center;
     align-items: center;
     border-radius: 100%;
+    @media (max-width: 991px) {
+        @include width(48px);
+        @include height(48px);
+    }
 }

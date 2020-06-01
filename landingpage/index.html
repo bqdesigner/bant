@@ -18,7 +18,7 @@
         <section class="container">
             <header>
                 <img src="assets/img/logo_bant.png" alt="Logo BANT">
-                <a href="#"> Testar agora </a>
+                <!-- <a href="#"> Testar agora </a> -->
             </header>
             <section class="entrada">
                 <div class="row">
@@ -28,14 +28,14 @@
                         </h1>
                         <h2> Seja um dos primeiros a testar. </h2>
                         <div class="form-cadastro">
-                            <form action="">
-                                <input type="text" placeholder="Seu melhor email" required>
+                            <form action="scripts/form.php" method="POST">
+                                <input type="text" placeholder="Seu email" required>
                                 <input type="submit" value="Entrar na lista">
                             </form>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
-                        <img src="assets/img/img_entrada.png" class="w-100" alt="">
+                        <img src="assets/img/img_entrada.png" class="img-fluid img-entrada" alt="">
                     </div>
                 </div>
             </section>
@@ -75,10 +75,10 @@
                 <h2> O melhor do capão na sua mão </h2>
                 <p> Bant-se a nós.</p>
                 <div class="row">
-                    <div class="col-12 offset-0 col-md-9 offset-md-3">
+                    <div class="col-12 offset-0 col-md-9 offset-md-1 col-lg-9 offset-lg-3">
                         <div class="form-cadastro">
-                            <form action="">
-                                <input type="text" placeholder="Seu melhor email" required>
+                            <form action="scripts/form.php" method="POST">
+                                <input type="text" placeholder="Seu email" required>
                                 <input type="submit" value="Entrar na lista">
                             </form>
                         </div>
@@ -104,24 +104,33 @@
                 <p> Nosso app te mostra tudo que tem perto de você, tudo mesmo! </p>
                 <div class="row">
                     <div class="col-12 col-md-3">
-                        <h3> Comércios </h3>
+                        <div class="servicos">
+                            <h3> Comércios </h3>
+                        </div>
                     </div>
                     <div class="col-12 offset-0 col-md-3 offset-md-1">
-                        <h3> Serviços </h3>
-                    </div>
-                    <div class="ccol-12 offset-0 col-md-3 offset-md-1">
-                        <h3> Vizinhança </h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 offset-0 col-md-3 offset-md-1">
-                        <h3> Ações sociais </h3>
+                        <div class="servicos">
+                            <h3> Serviços </h3>
+                        </div>
                     </div>
                     <div class="col-12 offset-0 col-md-3 offset-md-1">
-                        <h3> Trocas colaborativas </h3>
+                        <div class="servicos">
+                            <h3> Vizinhança </h3>
+                        </div>
                     </div>
                     <div class="col-12 offset-0 col-md-3 offset-md-1">
-                        <h3> Últimas Notícias </h3>
+                        <div class="servicos">
+                            <h3> Ações sociais </h3>
+                        </div>
+                    </div>
+                    <div class="col-12 offset-0 col-md-3 offset-md-1">
+                        <div class="servicos">
+                            <h3> Trocas colaborativas </h3>
+                        </div>
+                    </div>
+                    <div class="col-12 offset-0 col-md-3 offset-md-1">
+                        <div class="servicos">
+                            <h3> Últimas Notícias </h3>
                     </div>
                 </div>
             </section>
@@ -315,7 +324,7 @@
                                 <div id="collapseSix" class="panel-collapse collapse" role="tabpanel"
                                     aria-labelledby="headingSix">
                                     <div class="panel-body">
-                                        Sim, pode sim. A Bant está selecionando novos comércios para ser parceiros da marca. Para cadastrar seu estabelecimento com a gente basta enviar um e-mail para <strong>bantoficial@gmail.com</strong>, detalhe seu comércio e nós entraremos em contato com você.
+                                        Sim, pode sim. A Bant está selecionando novos comércios para ser parceiros da marca. Para cadastrar seu estabelecimento com a gente basta enviar um e-mail para <a href="mailto:bantoficial@gmail.com">bantoficial@gmail.com</a>, detalhe seu comércio e nós entraremos em contato com você.
                                     </div>
                                 </div>
                             </div>
@@ -353,12 +362,27 @@
                                 <div id="collapseEight" class="panel-collapse collapse" role="tabpanel"
                                     aria-labelledby="headingEight">
                                     <div class="panel-body">
-                                        Entre em contato conosco pelo e-mail <strong>bantoficial@gmail.com</strong>. Envie suas dúvidas, retornaremos o mais rápido possível. 
+                                        Entre em contato conosco pelo e-mail <a href="mailto:bantoficial@gmail.com">bantoficial@gmail.com</a>. Envie suas dúvidas, retornaremos o mais rápido possível. 
                                     </div>
                                 </div>
                             </div>
                             <!-- end of panel -->
 
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="chamada-email">
+                <h2> Consuma direto do seu bairro </h2>
+                <p> Bant-se a nós.</p>
+                <div class="row">
+                    <div class="col-12 offset-0 col-md-9 offset-md-1 col-lg-9 offset-lg-3">
+                        <div class="form-cadastro">
+                            <form action="scripts/form.php" method="POST">
+                                <input type="text" placeholder="Seu email" required>
+                                <input type="submit" value="Entrar na lista">
+                            </form>
                         </div>
                     </div>
                 </div>
