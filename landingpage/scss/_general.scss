@@ -297,9 +297,9 @@ header {
     .panel {
         border-bottom: 1px solid rgba($color-primary, 0.1);
         margin-bottom: 1rem;
-        &:last-child {
-            border-bottom: none;
-        }
+        // &:last-child {
+        //     border-bottom: none;
+        // }
     }
     .panel-group > .panel:first-child .panel-heading {
         border-radius: 4px 4px 0 0;
@@ -317,7 +317,7 @@ header {
     }
     .panel-title a {
         display: block;
-        padding: 1rem;
+        padding: 1rem 2rem 1rem 1rem;
         position: relative;
         font-family: 'Open Sans', sans-serif;
         font-weight: 800;
