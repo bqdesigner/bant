@@ -112,6 +112,17 @@
             -moz-box-shadow: 50px 50px 0px 0px $color-primary;
             box-shadow: 50px 50px 0px 0px $color-primary;
         }
+        .form-cadastro {
+            @include width(340px);
+            input[type="text"] {
+                @include width(210px);
+                @include fontSize(12px);
+            }
+            input[type="submit"] {
+                @include fontSize(12px);
+                padding: 0 1rem 0 1rem;
+            }
+        }
     }
     .chamada-1 {
         .steps {
@@ -119,7 +130,7 @@
         }
     }
     .chamada-email .form-cadastro {
-        @include width(350px);
+        @include width(340px);
         input[type="text"] {
             @include width(210px);
             @include fontSize(12px);
