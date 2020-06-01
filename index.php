@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <!-- font-family: 'Open Sans', sans-serif; -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
 </head>
 
 <body>

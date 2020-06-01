@@ -2,7 +2,7 @@
 
 // Passando os dados obtidos pelo formulário para as variáveis abaixo
 $emailremetente    = trim($_POST['email']);
-$emaildestinatario = 'projetos@fceng.com.br'; // Digite seu e-mail aqui, lembrando que o e-mail deve estar em seu servidor web
+$emaildestinatario = 'bqdesigner@outlook.com'; // Digite seu e-mail aqui, lembrando que o e-mail deve estar em seu servidor web
 $assunto		   = 'Cadastro BANT';
  
 /* Montando a mensagem a ser enviada no corpo do e-mail. */
@@ -19,5 +19,5 @@ $headers .= "Return-Path: $emaildestinatario \r\n"; // return-path
 $envio = mail($emaildestinatario, $assunto, $mensagemHTML, $headers); 
  
 if($envio)
-    echo "<script>location.href='https://fceng.com.br'</script>"; // Página que será redirecionada
+    echo "<script>location.href='https://appbant.herokuapp.com/'</script>"; // Página que será redirecionada
 ?>
