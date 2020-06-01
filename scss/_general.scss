@@ -9,7 +9,6 @@
     padding: 0;
     overflow: hidden;
 }
-
 body {
     margin: 0;
     padding: 0;
@@ -19,10 +18,10 @@ body {
     background-position: top right;
     font-family: 'Open Sans', sans-serif;
 }
-// .row {
-//     margin: 0;
-//     padding: 0;
-// }
+main {
+    overflow: hidden;
+    overflow-y: scroll;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -175,12 +174,10 @@ header {
         }
     }
 }
-// .chamada-2 {
-    
-// }
-// .chamada-email {
+.chamada-email p {
+    margin-bottom: 0;
+}
 
-// }
 .chamada-3 {
     h2, p {
         text-align: left;
@@ -198,6 +195,7 @@ header {
         flex-direction: column;
         margin-bottom: 3rem;
         position: relative;
+        background-size: cover;
         &::before {
             position: absolute;
             bottom: 0;
