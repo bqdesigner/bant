@@ -18,9 +18,8 @@ body {
     background-position: top right;
     font-family: 'Open Sans', sans-serif;
 }
-main {
+.content {
     overflow: hidden;
-    overflow-y: scroll;
 }
 header {
     display: flex;
@@ -75,6 +74,9 @@ header {
         color: $color-support;
         outline: none;
         padding-left: 30px;
+        &:focus {
+            border-color: $color-secondary;
+        }
     }
     input[type="submit"] {
         @include height(50px);
