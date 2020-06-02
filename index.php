@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="theme-color" content="#39b54a">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Empresa integradora de soluções de engenharia e projetos de alta complexidade." />
+    <meta name="description" content="Somos um projeto de startup criada para TRANSFORMAR o relacionamento entre moradores e comerciantes, incentivando a economia dentro dos bairros das periferias, levando inovação, colaborativismo e sustentabilidade às comunidades." />
     <meta name="keywords"
         content="água fria, água quente, esgoto, irrigação, projeto de piscina, aquecimento solar, aquecimento elétrico, ventilação, drenos de ar condicionado, projeto de gás, Distribuição dos circuitos, telefonia, lógica, CFTV, antena infraestrutura seca, SPDA, diagramas, Renovação de ar, Exaustão e Climatização, Hidrantes, Extintores e Sprinklers,  Fundação, Vigas, Pilares, Lajes, Estrutura de concreto armado, estrutura metálica, alvenaria estrutural, Projetos especiais de gases medicinais, hidráulica, ar condicionado, Reformas,  ampliações" />
     <meta name="robots" content="index, follow">
     <meta property="og:locale" content="pt_BR">
-    <meta property="og:url" content="https://fceng.com.br/">
-    <meta property="og:title" content="F&C Engenharia">
-    <meta property="og:site_name" content="F&C Engenharia">
+    <meta property="og:url" content="https://appbant.herokuapp.com/">
+    <meta property="og:title" content="BANT APP">
+    <meta property="og:site_name" content="BANT APP">
     <meta property="og:description"
-        content="Empresa integradora de soluções de engenharia e projetos de alta complexidade.">
+        content="Somos um projeto de startup criada para TRANSFORMAR o relacionamento entre moradores e comerciantes, incentivando a economia dentro dos bairros das periferias, levando inovação, colaborativismo e sustentabilidade às comunidades.">
     <meta property="og:image" content="assets/img/meta.jpg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="800">
