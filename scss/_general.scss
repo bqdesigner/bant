@@ -74,9 +74,10 @@ header {
         color: $color-support;
         outline: none;
         padding-left: 30px;
-        &:focus {
-            border-color: $color-secondary;
-        }
+    }
+    input[type="text"]:focus {
+        font-weight: 700;
+        color: $color-support;
     }
     input[type="submit"] {
         @include height(50px);
@@ -92,6 +93,9 @@ header {
         &:hover {
             background-color: saturate($color-secondary, 10) ;
         }
+    }
+    input[type="submit"]:focus {
+        font-weight: 700;
     }
 }
 .chamada-1 h2, .chamada-2 h2, .chamada-3 h2, .chamada-4 h2, .comentarios h2, .faq h2, .sobre h2, .chamada-email h2 {
