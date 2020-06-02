@@ -303,7 +303,13 @@ header {
         color: $color-gray_300;
         @include fontSize(16px);
         padding: 1rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
+        position: relative;
+        &::before {
+            content: url(../assets/svg/aspas.svg);
+            position: absolute;
+            top: -1.3rem;
+        }
         .perfil {
             margin-top: 1rem;
             display: flex;
