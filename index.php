@@ -43,7 +43,7 @@
                         </h1>
                         <h2> Seja um dos primeiros a testar. </h2>
                         <div class="form-cadastro">
-                            <form action="scripts/form.php" method="POST">
+                            <form>
                                 <input type="text" placeholder="Seu email" required aria-label="Informe seu email para se inscrever">
                                 <input type="submit" value="Entrar na lista">
                             </form>
@@ -92,7 +92,7 @@
                 <div class="row">
                     <div class="col-12 offset-0 col-md-9 offset-md-1 col-lg-9 offset-lg-3">
                         <div class="form-cadastro">
-                            <form action="scripts/form.php" method="POST">
+                            <form>
                                 <input type="text" placeholder="Seu email" required aria-label="Informe seu email para se inscrever">
                                 <input type="submit" value="Entrar na lista">
                             </form>
@@ -395,7 +395,7 @@
                 <div class="row">
                     <div class="col-12 offset-0 col-md-9 offset-md-1 col-lg-9 offset-lg-3">
                         <div class="form-cadastro">
-                            <form action="scripts/form.php" method="POST">
+                            <form>
                                 <input type="text" placeholder="Seu email" required aria-label="Informe seu email para se inscrever">
                                 <input type="submit" value="Entrar na lista">
                             </form>
