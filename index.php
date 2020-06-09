@@ -35,7 +35,7 @@
             <header>
                 <img src="assets/img/logo_bant.png"
                     alt="Logo BANT. No qual uma formiga dentro de um box arredondado, na cor verde, formam o logo.">
-                <a href="#cadastrar" aria-label="Link ancora que te leva até o formulário para inserir seu email" class="scroll"> Testar agora </a>
+                <a href="#cadastrar" aria-label="Link ancora que te leva até o formulário para inserir seu email" class="scroll"> Seja um dos primeiros </a>
             </header>
             <section class="entrada">
                 <div class="row">
