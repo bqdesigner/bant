@@ -463,30 +463,9 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"> </script>
-    <script>
-        $(document).ready(function () {
-            $('.collapse.in').prev('.panel-heading').addClass('active');
-            $('#accordion, #bs-collapse')
-                .on('show.bs.collapse', function (a) {
-                    $(a.target).prev('.panel-heading').addClass('active');
-                })
-                .on('hide.bs.collapse', function (a) {
-                    $(a.target).prev('.panel-heading').removeClass('active');
-                });
-        });
-
-        // Scroll top Animation
-        $('.scroll').click(function (e) {
-            e.preventDefault();
-            $('html,body').animate({
-                scrollTop: $(this.hash).offset().top - 90
-            }, 800);
-        });
-    </script>
+    <script src="scripts/app.js"> </script>
 </body>
 
 </html>
