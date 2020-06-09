@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="theme-color" content="#39b54a">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Somos um projeto de startup criada para TRANSFORMAR o relacionamento entre moradores e comerciantes, incentivando a economia dentro dos bairros das periferias, levando inovação, colaborativismo e sustentabilidade às comunidades." />
+    <meta name="description"
+        content="Somos um projeto de startup criada para TRANSFORMAR o relacionamento entre moradores e comerciantes, incentivando a economia dentro dos bairros das periferias, levando inovação, colaborativismo e sustentabilidade às comunidades." />
     <meta name="keywords"
         content="água fria, água quente, esgoto, irrigação, projeto de piscina, aquecimento solar, aquecimento elétrico, ventilação, drenos de ar condicionado, projeto de gás, Distribuição dos circuitos, telefonia, lógica, CFTV, antena infraestrutura seca, SPDA, diagramas, Renovação de ar, Exaustão e Climatização, Hidrantes, Extintores e Sprinklers,  Fundação, Vigas, Pilares, Lajes, Estrutura de concreto armado, estrutura metálica, alvenaria estrutural, Projetos especiais de gases medicinais, hidráulica, ar condicionado, Reformas,  ampliações" />
     <meta name="robots" content="index, follow">
@@ -32,8 +33,9 @@
     <div class="content">
         <main class="container">
             <header>
-                <img src="assets/img/logo_bant.png" alt="Logo BANT. No qual uma formiga dentro de um box arredondado, na cor verde, formam o logo.">
-                <!-- <a href="#"> Testar agora </a> -->
+                <img src="assets/img/logo_bant.png"
+                    alt="Logo BANT. No qual uma formiga dentro de um box arredondado, na cor verde, formam o logo.">
+                <a href="#cadastrar" aria-label="Link ancora que te leva até o formulário para inserir seu email" class="scroll"> Testar agora </a>
             </header>
             <section class="entrada">
                 <div class="row">
@@ -44,13 +46,15 @@
                         <h2> Seja um dos primeiros a testar. </h2>
                         <div class="form-cadastro">
                             <form>
-                                <input type="text" placeholder="Seu email" required aria-label="Informe seu email para se inscrever">
+                                <input type="text" placeholder="Seu email" required
+                                    aria-label="Informe seu email para se inscrever">
                                 <input type="submit" value="Entrar na lista">
                             </form>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
-                        <img src="assets/img/img_entrada.png" class="img-fluid img-entrada" alt="Imagem de uma mulher segurando um celular, usando o app da BANT para escolher qual serviço ela vai realizar.">
+                        <img src="assets/img/img_entrada.png" class="img-fluid img-entrada"
+                            alt="Imagem de uma mulher segurando um celular, usando o app da BANT para escolher qual serviço ela vai realizar.">
                     </div>
                 </div>
             </section>
@@ -61,7 +65,8 @@
                     simples, rápido e econômico!</p>
                 <div class="row">
                     <div class="col-12 col-md-7">
-                        <img src="assets/img/img_chamada_1.png" class="w-100" alt="Imagem de uma pessoa com mochila de entregador delivery, ao lado de sua moto se preparando para fazer uma entrega. Ele se encontra no estacionamento na rua.">
+                        <img src="assets/img/img_chamada_1.png" class="w-100"
+                            alt="Imagem de uma pessoa com mochila de entregador delivery, ao lado de sua moto se preparando para fazer uma entrega. Ele se encontra no estacionamento na rua.">
                     </div>
                     <div class="col-12 col-md-4 offset-1 steps">
                         <ul>
@@ -83,17 +88,19 @@
                 <h2> Colabore com pequenos negócios do bairro </h2>
                 <p> Comprar na Bant é valorizar o pequeno comerciante do seu bairro e contribuir para que espaços como a
                     “Venda do Seu Zé” não sejam fechadas ou falidas.</p>
-                <img src="assets/img/img_chamada_2.png" class="w-100" alt="Foto ambientada em uma feira, com diversas frutas ao seu redorm onde um feirante dá troco para uma mulher que acabou de fazer uma compra. ">
+                <img src="assets/img/img_chamada_2.png" class="w-100"
+                    alt="Foto ambientada em uma feira, com diversas frutas ao seu redorm onde um feirante dá troco para uma mulher que acabou de fazer uma compra. ">
             </section>
 
-            <section class="chamada-email">
+            <section class="chamada-email" id="cadastrar">
                 <h2> O melhor do capão na sua mão </h2>
                 <p> Bant-se a nós.</p>
                 <div class="row">
                     <div class="col-12 offset-0 col-md-9 offset-md-1 col-lg-9 offset-lg-3">
                         <div class="form-cadastro">
                             <form>
-                                <input type="text" placeholder="Seu email" required aria-label="Informe seu email para se inscrever">
+                                <input type="text" placeholder="Seu email" required
+                                    aria-label="Informe seu email para se inscrever">
                                 <input type="submit" value="Entrar na lista">
                             </form>
                         </div>
@@ -109,7 +116,8 @@
                             vizinhança e seja alertado sobre tudo o que está acontecendo no bairro. </p>
                     </div>
                     <div class="col-12 col-md-7">
-                        <img src="assets/img/img_chamada_3.png" class="w-100" alt="Uma mulher de cabelo de rosa e uma mulher loira estão podando flores para colocar em uma plantação comunitária. Um homem ao fundo está organizando as flores em um mini jardim.">
+                        <img src="assets/img/img_chamada_3.png" class="w-100"
+                            alt="Uma mulher de cabelo de rosa e uma mulher loira estão podando flores para colocar em uma plantação comunitária. Um homem ao fundo está organizando as flores em um mini jardim.">
                     </div>
                 </div>
             </section>
@@ -237,7 +245,8 @@
                                 <div class="panel-heading active" role="tab" id="headingOne">
                                     <h4 class="panel-title">
                                         <a role="button" data-toggle="collapse" data-parent="#accordion"
-                                            href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" aria-label="O que é a BANT?">
+                                            href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                                            aria-label="O que é a BANT?">
                                             • O que é a Bant?
                                         </a>
                                     </h4>
@@ -245,7 +254,9 @@
                                 <div id="collapseOne" class="panel-collapse collapse show" role="tabpanel"
                                     aria-labelledby="headingOne">
                                     <div class="panel-body">
-                                        Somos um projeto de startup criada para TRANSFORMAR o relacionamento entre moradores e comerciantes, incentivando a economia dentro dos bairros das periferias, levando inovação, colaborativismo e sustentabilidade às comunidades.
+                                        Somos um projeto de startup criada para TRANSFORMAR o relacionamento entre
+                                        moradores e comerciantes, incentivando a economia dentro dos bairros das
+                                        periferias, levando inovação, colaborativismo e sustentabilidade às comunidades.
                                     </div>
                                 </div>
                             </div>
@@ -264,7 +275,11 @@
                                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
                                     aria-labelledby="headingTwo">
                                     <div class="panel-body">
-                                        Conectamos moradores com os comércios locais que há perto de suas casas, dentro do bairro. Através dessa conexão, o morador pode descobrir estabelecimentos próximos, comparar preços, fazer suas compras no nosso app, obter descontos, optar por retirar sua compra na loja física ou receber em casa, com fretes baixos ou até mesmo grátis. Tudo simples, rápido, fácil e econômico.
+                                        Conectamos moradores com os comércios locais que há perto de suas casas, dentro
+                                        do bairro. Através dessa conexão, o morador pode descobrir estabelecimentos
+                                        próximos, comparar preços, fazer suas compras no nosso app, obter descontos,
+                                        optar por retirar sua compra na loja física ou receber em casa, com fretes
+                                        baixos ou até mesmo grátis. Tudo simples, rápido, fácil e econômico.
                                     </div>
                                 </div>
                             </div>
@@ -280,11 +295,13 @@
                                         </a>
                                     </h4>
                                 </div>
-                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingThree">
-                                    <div class="panel-body">
-                                        Sim, o acesso da Bant é gratuito. Você pode acessar quantas vezes quiser para consultar as lojas e produtos disponíveis perto da sua casa. Você só paga se efetuar alguma compra no aplicativo.
-                                    </div>
+                                <div id=" collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                            aria-labelledby="headingThree">
+                                            <div class="panel-body">
+                                                Sim, o acesso da Bant é gratuito. Você pode acessar quantas vezes quiser
+                                                para consultar as lojas e produtos disponíveis perto da sua casa. Você
+                                                só paga se efetuar alguma compra no aplicativo.
+                                            </div>
                                 </div>
                             </div>
                             <!-- end of panel -->
@@ -294,7 +311,8 @@
                                     <h4 class="panel-title">
                                         <a class="collapsed" role="button" data-toggle="collapse"
                                             data-parent="#accordion" href="#collapseFour" aria-expanded="false"
-                                            aria-controls="collapseFour" aria-label="Em quais bairros a Bant está disponível?">
+                                            aria-controls="collapseFour"
+                                            aria-label="Em quais bairros a Bant está disponível?">
                                             • Em quais bairros a Bant está disponível?
                                         </a>
                                     </h4>
@@ -302,7 +320,9 @@
                                 <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
                                     aria-labelledby="headingFour">
                                     <div class="panel-body">
-                                        Nesse momento, estamos em toda a região do Capão Redondo. Contudo, nosso objetivo é ampliar nossa atuação para outras periferias de São Paulo até o final de 2020.
+                                        Nesse momento, estamos em toda a região do Capão Redondo. Contudo, nosso
+                                        objetivo é ampliar nossa atuação para outras periferias de São Paulo até o final
+                                        de 2020.
                                     </div>
                                 </div>
                             </div>
@@ -313,7 +333,8 @@
                                     <h4 class="panel-title">
                                         <a class="collapsed" role="button" data-toggle="collapse"
                                             data-parent="#accordion" href="#collapseFive" aria-expanded="false"
-                                            aria-controls="collapseFive" aria-label="Quais os estabelecimentos que há na Bant?">
+                                            aria-controls="collapseFive"
+                                            aria-label="Quais os estabelecimentos que há na Bant?">
                                             • Quais os estabelecimentos que há na Bant?
                                         </a>
                                     </h4>
@@ -321,7 +342,9 @@
                                 <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
                                     aria-labelledby="headingFive">
                                     <div class="panel-body">
-                                        Na Bant você encontra opções de mercados, mini mercados e mercearias. Em breve vamos disponibilizar novas opções para levar mais opção e comodidade aos nossos clientes.
+                                        Na Bant você encontra opções de mercados, mini mercados e mercearias. Em breve
+                                        vamos disponibilizar novas opções para levar mais opção e comodidade aos nossos
+                                        clientes.
                                     </div>
                                 </div>
                             </div>
@@ -332,7 +355,8 @@
                                     <h4 class="panel-title">
                                         <a class="collapsed" role="button" data-toggle="collapse"
                                             data-parent="#accordion" href="#collapseSix" aria-expanded="false"
-                                            aria-controls="collapseSix" aria-label="Sou comerciante, como cadastrar meu estabelecimento?">
+                                            aria-controls="collapseSix"
+                                            aria-label="Sou comerciante, como cadastrar meu estabelecimento?">
                                             • Sou comerciante, como cadastrar meu estabelecimento?
                                         </a>
                                     </h4>
@@ -340,7 +364,10 @@
                                 <div id="collapseSix" class="panel-collapse collapse" role="tabpanel"
                                     aria-labelledby="headingSix">
                                     <div class="panel-body">
-                                        Sim, pode sim. A Bant está selecionando novos comércios para ser parceiros da marca. Para cadastrar seu estabelecimento com a gente basta enviar um e-mail para <a href="mailto:bantoficial@gmail.com">bantoficial@gmail.com</a>, detalhe seu comércio e nós entraremos em contato com você.
+                                        Sim, pode sim. A Bant está selecionando novos comércios para ser parceiros da
+                                        marca. Para cadastrar seu estabelecimento com a gente basta enviar um e-mail
+                                        para <a href="mailto:bantoficial@gmail.com">bantoficial@gmail.com</a>, detalhe
+                                        seu comércio e nós entraremos em contato com você.
                                     </div>
                                 </div>
                             </div>
@@ -351,7 +378,8 @@
                                     <h4 class="panel-title">
                                         <a class="collapsed" role="button" data-toggle="collapse"
                                             data-parent="#accordion" href="#collapseSeven" aria-expanded="false"
-                                            aria-controls="collapseSeven" aria-label="Quem realiza as entregas da BANT?">
+                                            aria-controls="collapseSeven"
+                                            aria-label="Quem realiza as entregas da BANT?">
                                             • Quem realiza as entregas da Bant?
                                         </a>
                                     </h4>
@@ -359,7 +387,10 @@
                                 <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel"
                                     aria-labelledby="headingSeven">
                                     <div class="panel-body">
-                                        Todas as entregas da Bant são realizadas por entregadores parceiros da Bant. Essas pessoas são moradores do próprio bairro. Elas são credenciadas e verificadas na nossa plataforma. Assim possibilitamos a geração de oportunidade de trabalho no Capão Redondo.
+                                        Todas as entregas da Bant são realizadas por entregadores parceiros da Bant.
+                                        Essas pessoas são moradores do próprio bairro. Elas são credenciadas e
+                                        verificadas na nossa plataforma. Assim possibilitamos a geração de oportunidade
+                                        de trabalho no Capão Redondo.
                                     </div>
                                 </div>
                             </div>
@@ -378,7 +409,9 @@
                                 <div id="collapseEight" class="panel-collapse collapse" role="tabpanel"
                                     aria-labelledby="headingEight">
                                     <div class="panel-body">
-                                        Entre em contato conosco pelo e-mail <a href="mailto:bantoficial@gmail.com" aria-label="Email para bantoficial@gmail.com">bantoficial@gmail.com</a>. Envie suas dúvidas, retornaremos o mais rápido possível. 
+                                        Entre em contato conosco pelo e-mail <a href="mailto:bantoficial@gmail.com"
+                                            aria-label="Email para bantoficial@gmail.com">bantoficial@gmail.com</a>.
+                                        Envie suas dúvidas, retornaremos o mais rápido possível.
                                     </div>
                                 </div>
                             </div>
@@ -396,7 +429,8 @@
                     <div class="col-12 offset-0 col-md-9 offset-md-1 col-lg-9 offset-lg-3">
                         <div class="form-cadastro">
                             <form>
-                                <input type="text" placeholder="Seu email" required aria-label="Informe seu email para se inscrever">
+                                <input type="text" placeholder="Seu email" required
+                                    aria-label="Informe seu email para se inscrever">
                                 <input type="submit" value="Entrar na lista">
                             </form>
                         </div>
@@ -409,7 +443,8 @@
     <div class="sobre container-fluid">
         <div class="row">
             <div class="col-12 col-md-6">
-                <img src="assets/img/sobre_bant.png" class="w-100" alt="Uma mulher está entregando uma encomenda para um homem na porta de sua casa.">
+                <img src="assets/img/sobre_bant.png" class="w-100"
+                    alt="Uma mulher está entregando uma encomenda para um homem na porta de sua casa.">
             </div>
             <div class="col-12 col-md-5 info-sobre">
                 <h2> A BANT </h2>
@@ -442,6 +477,14 @@
                 .on('hide.bs.collapse', function (a) {
                     $(a.target).prev('.panel-heading').removeClass('active');
                 });
+        });
+
+        // Scroll top Animation
+        $('.scroll').click(function (e) {
+            e.preventDefault();
+            $('html,body').animate({
+                scrollTop: $(this.hash).offset().top - 90
+            }, 800);
         });
     </script>
 </body>
