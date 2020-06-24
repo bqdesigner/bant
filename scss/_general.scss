@@ -19,14 +19,17 @@
     font-family: 'Open Sans', sans-serif;
 }
 .obrigado {
-    width: 90%;
+    width: 100%;
     @include height(300px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
-    background: rgba($color-primary, 0.05);
+    margin-top: 12rem;
+    text-align: center;
+    // background: rgba($color-primary, 0.05);
+    // border-radius: .5rem;
+    // border: 1px solid $color-primary;
     a {
         background: $color-secondary;
         color: $color-white;
