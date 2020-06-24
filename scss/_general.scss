@@ -444,3 +444,10 @@ footer {
     color: $color-support;
     @include fontSize(14px);
 }
+.author {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    span {
+        margin-right: 2rem;
+    }
+}
